@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="mess.xsl"?>
+<!DOCTYPE messfeedback [
+<!ELEMENT messfeedback (userfeedback*)>
+<!ELEMENT userfeedback (messname,location,feedbacks,status)>
+<!ELEMENT messname (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT feedbacks (username,feedback)>
+<!ELEMENT username (#PCDATA)>
+<!ELEMENT feedback (#PCDATA)>
+<!ELEMENT status (#PCDATA)>
+]>
+<messfeedback>
+        <userfeedback>
+                <messname>Aruna mess</messname>
+                <location>a-156/720, vishnu college, bhimavaram</location>
+                <feedbacks>
+                        <username>Ravi</username>
+                        <feedback>sambar is not good and everything is fine</feedback>
+                </feedbacks>
+                <status>maintenance required</status>
+        </userfeedback>
+</messfeedback>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+ <xs:element name="messfeedbacks">
+	  <xs:complexType>
+	    <xs:sequence>
+	      <xs:element name="messname" type="xs:string"/>
+	      <xs:element name="location" type="xs:string"/>
+          <xs:element name="feedbacks">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="username" type="xs:string"/>
+	                <xs:element name="feedback" type="xs:string"/>
+                </xs:sequence>
+	         </xs:complexType>
+	      </xs:element>
+          <xs:element name="status" type="xs:string"/>
+	    </xs:sequence>
+	  </xs:complexType>
+	</xs:element>
+</xs:schema>
